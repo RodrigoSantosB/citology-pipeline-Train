@@ -1,0 +1,16 @@
+name: qat_cancer_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tensorflow==2.10.*
+  - pip:
+      - tensorflow-estimator==2.10.*
+      - tensorflow-io-gcs-filesystem==0.26.0

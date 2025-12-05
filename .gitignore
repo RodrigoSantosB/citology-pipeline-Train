@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 
 # Environment folders
-/environments/
 /env/
 /venv/
 .env

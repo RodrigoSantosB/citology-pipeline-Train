@@ -1,3 +1,29 @@
-inferencias/
-Dataset/
-Models/
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment folders
+/environments/
+/env/
+/venv/
+.env
+
+# Datasets - These should not be in the repository
+/Dataset/
+/Treinamentos de teste/
+
+# Model files and inference results - These are too large for Git
+/models/
+/models2/
+/inferencias/
+/metrics/
+/Scripts/cuda/
+/Scripts/cuda.run
+/Scripts/cuda.tgz
+*.keras
+*.h5
+*.tflite
+
+# IDE/Editor specific
+.vscode/
+.idea/
